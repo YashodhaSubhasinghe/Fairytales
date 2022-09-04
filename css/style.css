@@ -8,7 +8,7 @@ body {
 }
 
 .layout_padding2 {
-  padding: 45px 0;
+  padding: 15px 0;
 }
 
 .layout_padding2-top {
@@ -16,25 +16,28 @@ body {
 }
 
 .layout_padding-top {
-  padding-top: 75px;
+  padding-top: 20px;
 }
 
 .layout_padding-bottom {
-  padding-bottom: 75px;
+  padding-bottom: 25px;
 }
 
 .call_to-btn {
   display: inline-block;
-  padding: 15px 45px;
-  border-radius: 10px;
-  font-size: 15px;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 30px;
   background-color: #ffffff;
   color: #262627;
-  font-weight: 600;
+  font-weight: 700;
   transition: all 0.3s ease 0s;
 }
 
-.hero_section .call_to-btn {}
+.hero_section .call_to-btn {
+  font-size: 16px;
+  border-radius: 30px;
+}
 
 .call_to-btn img {
   width: 18px;
@@ -76,6 +79,7 @@ nav.navbar.navbar-expand-lg {
   padding: 10px 20px;
   color: #f7f6f7;
   text-align: center;
+  font-weight: 700;
 }
 
 
@@ -531,7 +535,7 @@ a:focus {
 
 .info_section .social-box img {
   width: 35px;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 /* end info section */
